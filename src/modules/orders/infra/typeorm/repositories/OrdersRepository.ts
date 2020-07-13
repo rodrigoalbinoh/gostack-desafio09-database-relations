@@ -21,7 +21,6 @@ class OrdersRepository implements IOrdersRepository {
 
     delete order.customer.created_at;
     delete order.customer.updated_at;
-    delete order.customer_id;
 
     return order;
   }
